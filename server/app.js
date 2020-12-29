@@ -50,9 +50,6 @@ io.on("connection", (socket) => {
         socket.emit('response_room', data);
       });
     })
-
-
-    
   });
 
 server.listen(PORT, () => {
